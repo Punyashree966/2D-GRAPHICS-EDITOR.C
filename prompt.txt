@@ -1,0 +1,20 @@
+Why did you use a 2D character array as the canvas?
+What are the advantages and disadvantages of using a global array?
+What is the time complexity of the display function?
+What is the space complexity of your program?
+Why is modular programming used in your project?
+What is the purpose of the do-while loop?
+Why did you choose a menu-driven approach?
+What happens if the user enters invalid coordinates?
+How can boundary checking be implemented?
+Why are separate functions used for different shapes?
+How is a rectangle represented in a 2D array?
+Why are two loops required to draw a rectangle?
+What happens when the rectangle exceeds canvas boundaries?
+How would you draw a filled rectangle?
+How would you calculate the area and perimeter of a rectangle in your program?
+Why can your line function draw only horizontal lines?
+How would you modify it to draw vertical lines?
+How would you implement diagonal lines?
+What algorithm is commonly used for efficient line drawing?
+Why is Bresenham’s Line Algorithm preferred in graphics?
