@@ -29,8 +29,12 @@ void drawRectangle(int row,int col,int height,int width, char ch)
 for(int i=col;i<col+width;i++)
 {
 canvas[row][i]=ch;
-canvas[i][col+width-1]=ch;
+canvas[row+height-1][i]=ch;
 }
+  for(int i=row;i<row+height;i++)
+    {
+      canvas[i][col]=ch;
+      canvas[i][col+width-1]=ch;
 }
 void drawLine(int row,int startCol, int end column,char ch)
 {
