@@ -186,7 +186,6 @@ case 11:
   break;
 }
   case 12:
-    {
   printf("Exiting..\n");
   break;
   default:
