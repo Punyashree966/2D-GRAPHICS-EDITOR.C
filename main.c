@@ -3,7 +3,7 @@
 #define ROWS 10
 #define COLS 20
 char canvas[ROWS][COLS];
-void intializeCanvas()
+void initializeCanvas()
 {
 for(int i=0;i<ROWS;i++)
 {
@@ -104,7 +104,7 @@ case 1:
 int r,c,h,w;
 printf("Row Col Height Width:");
 scanf("%d%d%d%d",&r,&c,&h,&w);
-drawRectangle(r,c,h,w'*');
+drawRectangle(r,c,h,w,'*');
   break;
 }
   case 2:
@@ -192,11 +192,9 @@ case 11:
   default:
     printf("Invaild Choice!\n");
 }
-}
-while(choice!=12)
+}while(choice!=12);
 return 0;
 }
-  }
 
 
 
