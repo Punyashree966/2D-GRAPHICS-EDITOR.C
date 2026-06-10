@@ -37,7 +37,7 @@ canvas[row+height-1][i]=ch;
       canvas[i][col+width-1]=ch;
     }
 }
-void drawLine(int row,int startCol, int end column,char ch)
+void drawLine(int row,int startCol, int endCol,char ch)
 {
   int i;
   if(row<0||row>=ROWS)
@@ -50,7 +50,7 @@ for(i=startCol;i<=endCol&&i<COLS;i++)
 }
 void drawTriangle(int row,int col,int height,char ch)
 {
-for(inti=0;i<height;i++)
+for(int i=0;i<height;i++)
 {
 if(row+i<ROWS&&col-i>=0)
   canvas[row+i][col-i]=ch;
